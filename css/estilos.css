@@ -52,3 +52,9 @@ body { text-align: center; }
 */
 #content { float: left; width: 660px; margin: 20px; }
 #aside { float: left; width: 220px; margin: 20px 0px; padding: 20px; background: #CCCCCC; }
+
+/*
+    Se establece el ancho del pie de página en 100% y se establece un color de fondo y un borde.
+    Esto se hace para que el pie de página se extienda por toda la página y sea más fácil de ver.
+*/
+#footer { clear: both; text-align: center; padding: 20px; border-top: 2px solid #999999; }
