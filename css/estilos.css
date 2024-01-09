@@ -1,6 +1,6 @@
 /* 
-Este es un reset CSS universal. Selecciona todos los elementos (*) y establece sus márgenes (margin) y rellenos (padding) a 0. 
-Esto se hace para eliminar las diferencias de estilo predeterminadas entre los navegadores, proporcionando un punto de partida consistente para el diseño.
+    Este es un reset CSS universal. Selecciona todos los elementos (*) y establece sus márgenes (margin) y rellenos (padding) a 0. 
+    Esto se hace para eliminar las diferencias de estilo predeterminadas entre los navegadores, proporcionando un punto de partida consistente para el diseño.
 */
 
 * { 
