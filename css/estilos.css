@@ -26,3 +26,9 @@ body { text-align: center; }
     Esto se hace para que el contenido de la página no se extienda demasiado y sea más fácil de leer.
 */
 #page { width: 960px; margin: 15px auto; text-align: left; }
+
+/*
+    Se establece el ancho de la cabecera en 100% y se establece un color de fondo y un borde.
+    Esto se hace para que la cabecera se extienda por toda la página y sea más fácil de ver.
+*/
+#header { background: #FFFBB9; border: 1px solid #999999; padding: 20px; }
