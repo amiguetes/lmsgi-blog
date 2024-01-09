@@ -20,3 +20,9 @@ h3 { font: bold 1em verdana, sans-serif; }
     Posteriormente veremos que esto solo nos centrará el contenido enlinea de la página, pero no las cajas.
 */
 body { text-align: center; }
+
+/*
+    Se establece el ancho de la página en 960px y se centra horizontalmente.
+    Esto se hace para que el contenido de la página no se extienda demasiado y sea más fácil de leer.
+*/
+#page { width: 960px; margin: 15px auto; text-align: left; }
