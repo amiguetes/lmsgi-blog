@@ -45,3 +45,10 @@ body { text-align: center; }
 */
 #nav a { text-decoration:none; }
 #nav a:hover { color: white; }
+
+/*
+    Se establece el ancho del contenido en 100% y se establece un color de fondo y un borde.
+    Esto se hace para que el contenido se extienda por toda la página y sea más fácil de ver.
+*/
+#content { float: left; width: 660px; margin: 20px; }
+#aside { float: left; width: 220px; margin: 20px 0px; padding: 20px; background: #CCCCCC; }
