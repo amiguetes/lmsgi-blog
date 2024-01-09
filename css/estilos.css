@@ -14,3 +14,9 @@
 h1 { font: bold 2em verdana, sans-serif; }
 h2 { font: bold 1.5em verdana, sans-serif; }
 h3 { font: bold 1em verdana, sans-serif; }
+
+/*
+    Se centra el cuerpo de la página para que el contenido se muestre en el centro de la página.
+    Posteriormente veremos que esto solo nos centrará el contenido enlinea de la página, pero no las cajas.
+*/
+body { text-align: center; }
