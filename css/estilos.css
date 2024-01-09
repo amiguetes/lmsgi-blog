@@ -32,3 +32,16 @@ body { text-align: center; }
     Esto se hace para que la cabecera se extienda por toda la página y sea más fácil de ver.
 */
 #header { background: #FFFBB9; border: 1px solid #999999; padding: 20px; }
+
+/*
+    Se establece el ancho del contenido en 100% y se establece un color de fondo y un borde.
+    Esto se hace para que el contenido se extienda por toda la página y sea más fácil de ver.
+*/
+#nav { background: #CCCCCC; padding: 5px 15px; }
+#nav li { display: inline; list-style: none; padding: 5px; font: bold 14px verdana, sans-serif; cursor:default;}
+/* 
+    Se establece el color de fondo de los enlaces de la barra de navegación y se elimina el subrayado.
+    Esto se hace para que los enlaces de la barra de navegación sean más fáciles de ver.
+*/
+#nav a { text-decoration:none; }
+#nav a:hover { color: white; }
