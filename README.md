@@ -1,5 +1,11 @@
 # Blog de Introducción a HTML y CSS3
 
+* **Nivel** Educativo: CFGS DAM
+* **Módulo:** Lenguajes de Marcas y Sistemas de Gestión de Información (Primer curso)
+* Fuente: <www.w3schools.com>
+* **CURSO CEFIRE:** LENGUAJES DE MARCAS Alejandro Amat Reina
+
+
 Bienvenidos al blog de introducción a HTML y CSS3. Este blog está diseñado para ayudar a los estudiantes a entender y practicar la creación y uso de cajas HTML, la flotación de elementos y técnicas específicas de CSS3.
 
 ## Contenido
@@ -18,6 +24,6 @@ Agradecemos cualquier contribución que pueda ayudar a mejorar este blog. Si tie
 
 ## Licencia
 
-Este proyecto está licenciado bajo la licencia MIT - vea el archivo [LICENSE.md](LICENSE.md) para más detalles.
+Llicenciat sota la [Llicència Creative Commons Reconeixement CompartirIgual 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Esperamos que este blog sea una herramienta útil en tu viaje de aprendizaje de HTML y CSS3. ¡Feliz codificación!
