@@ -58,3 +58,14 @@ body { text-align: center; }
     Esto se hace para que el pie de página se extienda por toda la página y sea más fácil de ver.
 */
 #footer { clear: both; text-align: center; padding: 20px; border-top: 2px solid #999999; }
+
+/*
+    Se establece el ancho de los artículos en 100% y se establece un color de fondo y un borde.
+    Esto se hace para que los artículos se extiendan por toda la página y sean más fáciles de ver.
+*/
+.article { background: #FFFBCC; border: 1px solid #999999; padding: 20px; margin-bottom: 15px; }
+.article_header { border-bottom: 1px solid #999999; }
+.article_footer { text-align: right; }
+.time { color: #999999; }
+.figure { border: 1px double #999999; padding: 5px; }
+.figure .figcaption { font: italic 0.6em verdana, sans-serif; }
