@@ -7,3 +7,10 @@
     margin: 0px; padding: 0px;  
 }
 
+/* 
+    Se establece el tamaño de fuente predeterminado en 62.5% para que sea más fácil calcular los tamaños de fuente con un valor de 10px = 1em.
+    Esto se hace para que el tamaño de fuente sea más fácil de escalar y que sea más consistente en diferentes navegadores.
+*/
+h1 { font: bold 2em verdana, sans-serif; }
+h2 { font: bold 1.5em verdana, sans-serif; }
+h3 { font: bold 1em verdana, sans-serif; }
