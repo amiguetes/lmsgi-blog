@@ -1,0 +1,71 @@
+/* 
+    Este es un reset CSS universal. Selecciona todos los elementos (*) y establece sus márgenes (margin) y rellenos (padding) a 0. 
+    Esto se hace para eliminar las diferencias de estilo predeterminadas entre los navegadores, proporcionando un punto de partida consistente para el diseño.
+*/
+
+* { 
+    margin: 0px; padding: 0px;  
+}
+
+/* 
+    Se establece el tamaño de fuente predeterminado en 62.5% para que sea más fácil calcular los tamaños de fuente con un valor de 10px = 1em.
+    Esto se hace para que el tamaño de fuente sea más fácil de escalar y que sea más consistente en diferentes navegadores.
+*/
+h1 { font: bold 2em verdana, sans-serif; }
+h2 { font: bold 1.5em verdana, sans-serif; }
+h3 { font: bold 1em verdana, sans-serif; }
+
+/*
+    Se centra el cuerpo de la página para que el contenido se muestre en el centro de la página.
+    Posteriormente veremos que esto solo nos centrará el contenido enlinea de la página, pero no las cajas.
+*/
+body { text-align: center; }
+
+/*
+    Se establece el ancho de la página en 960px y se centra horizontalmente.
+    Esto se hace para que el contenido de la página no se extienda demasiado y sea más fácil de leer.
+*/
+#page { width: 960px; margin: 15px auto; text-align: left; }
+
+/*
+    Se establece el ancho de la cabecera en 100% y se establece un color de fondo y un borde.
+    Esto se hace para que la cabecera se extienda por toda la página y sea más fácil de ver.
+*/
+#header { background: #FFFBB9; border: 1px solid #999999; padding: 20px; }
+
+/*
+    Se establece el ancho del contenido en 100% y se establece un color de fondo y un borde.
+    Esto se hace para que el contenido se extienda por toda la página y sea más fácil de ver.
+*/
+#nav { background: #CCCCCC; padding: 5px 15px; }
+#nav li { display: inline; list-style: none; padding: 5px; font: bold 14px verdana, sans-serif; cursor:default;}
+/* 
+    Se establece el color de fondo de los enlaces de la barra de navegación y se elimina el subrayado.
+    Esto se hace para que los enlaces de la barra de navegación sean más fáciles de ver.
+*/
+#nav a { text-decoration:none; }
+#nav a:hover { color: white; }
+
+/*
+    Se establece el ancho del contenido en 100% y se establece un color de fondo y un borde.
+    Esto se hace para que el contenido se extienda por toda la página y sea más fácil de ver.
+*/
+#content { float: left; width: 660px; margin: 20px; }
+#aside { float: left; width: 220px; margin: 20px 0px; padding: 20px; background: #CCCCCC; }
+
+/*
+    Se establece el ancho del pie de página en 100% y se establece un color de fondo y un borde.
+    Esto se hace para que el pie de página se extienda por toda la página y sea más fácil de ver.
+*/
+#footer { clear: both; text-align: center; padding: 20px; border-top: 2px solid #999999; }
+
+/*
+    Se establece el ancho de los artículos en 100% y se establece un color de fondo y un borde.
+    Esto se hace para que los artículos se extiendan por toda la página y sean más fáciles de ver.
+*/
+.article { background: #FFFBCC; border: 1px solid #999999; padding: 20px; margin-bottom: 15px; }
+.article_header { border-bottom: 1px solid #999999; }
+.article_footer { text-align: right; }
+.time { color: #999999; }
+.figure { border: 1px double #999999; padding: 5px; }
+.figure .figcaption { font: italic 0.6em verdana, sans-serif; }
